@@ -18,6 +18,7 @@ do
        for j in "$target"/*
               do
               echo $(basename $j)
+       fi
     echo $(basename $f)
     let count=count+1
 done
