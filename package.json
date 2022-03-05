@@ -6,12 +6,12 @@
     "packages/*"
   ],
   "scripts": {
-    "analyze": "ANALYZE=true yarn build",
+    "analyze": "",
     "dev": "next dev",
-    "build": "update_node_module.sh && next build && next export",
+    "build": "next build && next export",
     "start": "next start",
-    "test": "jest",
-    "test:config": "jest src/config/__tests__/ --testPathIgnorePatterns",
+    "test": "",
+    "test:config": "",
     "integration-test": "start-server-and-test start http://localhost:3000 'cypress run'",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx}\"",

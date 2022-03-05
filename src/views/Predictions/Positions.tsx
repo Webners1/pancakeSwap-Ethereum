@@ -54,29 +54,7 @@ const Positions: React.FC<{ view?: PageView }> = ({ view }) => {
 
   return (
     <Box overflow="hidden">
-      <Menu />
-      <StyledSwiper>
-        <Swiper
-          initialSlide={swiperIndex}
-          onSwiper={setSwiper}
-          spaceBetween={16}
-          slidesPerView="auto"
-          freeMode
-          freeModeSticky
-          centeredSlides
-          freeModeMomentumRatio={0.25}
-          freeModeMomentumVelocityRatio={0.5}
-          mousewheel
-          keyboard
-          resizeObserver
-        >
-          {rounds.map((round) => (
-            <SwiperSlide key={round.epoch}>
-              {({ isActive }) => <RoundCard round={round} isActive={isChangeTransition && isActive} />}
-            </SwiperSlide>
-          ))}
-        </Swiper>
-      </StyledSwiper>
+    .
     </Box>
   )
 }

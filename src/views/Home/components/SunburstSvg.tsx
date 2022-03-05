@@ -1,4 +1,4 @@
-import { Svg, SvgProps } from from '../../../../packages/uikit'
+import { Svg, SvgProps } from '@pancakeswap/uikit'
 
 const SunburstSvg: React.FC<SvgProps> = (props) => {
   return (
